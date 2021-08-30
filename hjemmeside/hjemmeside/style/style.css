@@ -1,0 +1,80 @@
+body
+{
+    margin: 0;
+    background-color: paleturquoise;
+}
+
+p
+{
+    margin-left: 5px;
+}
+
+@font-face {
+    font-family: arla-strong;
+    src: url(fonts/ARLASTRONG-Regular.d5ae5579.woff2);
+}
+
+hr
+{
+    margin-top: 0;
+}
+
+#topDiv
+{
+    top: 0;
+    position: fixed;
+    background-color: orange;
+    float: left;
+    width: 100%;
+    height: 8vh;
+}
+
+.titel
+{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 15vh;
+    color: white;
+    font-family: arla-strong;
+    font-size: 7vw;
+}
+
+#topDiv, a
+{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    margin-right: 1vw;
+}
+
+#topDiv, a:hover
+{
+    color: white;
+}
+
+.topBilled
+{
+    position: absolute;
+    top: 8.2vh;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.underTitel
+{
+    margin-top: 50vh;
+    font-size: x-large;
+    margin-left: 5px;
+}
+
+#næringsindhold
+{
+    font-size: x-large;
+    margin-left: 5px;
+}
+
+#inspoP
+{
+    margin-left: 5px;
+    width: 50%;
+}
